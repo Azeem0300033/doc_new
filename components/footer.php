@@ -9,7 +9,7 @@
                 <div class="col-md-3 col-sm-6 equal-height item">
                     <div class="f-item">
                         <!--                            <img src="assets/img/b2b/logo.svg" class="logo" alt="Logo">-->
-                        <img src="assets/b2b/360logowhite.png" width="180px" alt="">
+                        <img src="assets/b2b/360logowhite2.png" width="180px" alt="">
 
                     </div>
                 </div>
