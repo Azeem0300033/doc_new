@@ -88,8 +88,8 @@
                 <div></div>
                 <h5>OUR FEATURES</h5>
                 <h3 class="text-capitlize mb-40">Optimize your practice with tools that provide convenience,
-                visibility, <br>and
-                accessibility.</h3>
+                    visibility, <br>and
+                    accessibility.</h3>
                 <!-- Single Item -->
                 <div class="col-md-3 col-sm-6 equal-height mt-5">
                     <div class="item">
@@ -580,7 +580,7 @@
 
 <div class="banner-area responsive-auto-height text-small">
     <div class="item shadow dark text-light bg-fixed"
-         style="background-image: url(assets/img/b2b/glowing-blue-background.webp); background-position: top;background-size: cover">
+         style="background-image: url(assets/img/images.jpeg); background-position: top;background-size: cover">
         <div class="box-table">
             <div class="box-cell">
                 <div class="container">
@@ -605,7 +605,7 @@
                         </p>
                         <p>
                             <img src="assets/img/b2b/blue-tick.svg" width="20px" alt=""> &nbsp;&nbsp;
-                            No third party is involved with your data, ensuring complete confidentiality.
+                            No third party is involved with your data, ensuring complete <span style="margin-left: 6%;">confidentiality.</span>
                         </p>
                         <p>
                             <img src="assets/img/b2b/blue-tick.svg" width="20px" alt=""> &nbsp;&nbsp;
@@ -613,15 +613,15 @@
                         </p>
                         <p>
                             <img src="assets/img/b2b/blue-tick.svg" width="20px" alt=""> &nbsp;&nbsp;
-                            Different practices using our services cannot view each other&#39;s data.
+                            Different practices using our services cannot view each other&#39;s <span style="margin-left: 6%;">data.</span>
                         </p>
                         <p>
                             <img src="assets/img/b2b/blue-tick.svg" width="20px" alt=""> &nbsp;&nbsp;
-                            Our technical support team is dedicated to keeping your data safe and secure at all times.
+                            Our technical support team is dedicated to keeping your data <span style="margin-left: 6%;"> safe and secure at all times.</span>
                         </p>
                     </div>
                     <div class="col-md-1"></div>
-                    
+
                 </div>
             </div>
         </div>
