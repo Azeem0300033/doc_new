@@ -121,6 +121,19 @@
                     <div class="item">
                         <a href="#">
                                 <span class="flaticon-doctor-1">
+                                    <img src="assets/img/b2b/manage-billing.svg" alt="">
+                                </span>
+
+                            <h4 style="margin-top:14px; ">Manage Billing</h4>
+                            <p class="mt-10">We allow to recoup your outstanding bills to keep your workflow functional and running
+                                <br><br></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 equal-height">
+                    <div class="item">
+                        <a href="#">
+                                <span class="flaticon-doctor-1">
                                    <img src="assets/img/b2b/management.svg" alt="" >
                                 </span>
 
@@ -158,18 +171,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="col-md-3 col-sm-6 equal-height">
-                    <div class="item">
-                        <a href="#">
-                                <span class="flaticon-doctor-1">
-                                    <img src="assets/img/b2b/manage-billing.svg" alt="">
-                                </span>
 
-                            <h4 style="margin-top:14px; ">Manage Billing</h4>
-                            <p class="mt-10">We allow to recoup your outstanding bills to keep your workflow functional and running &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                        </a>
-                    </div>
-                </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
 

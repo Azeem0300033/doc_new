@@ -502,7 +502,7 @@
 
             <div class="col-md-4">
                 <h2 style="margin-top:15px">Hospital</h2>
-                <p style="font-size: large">
+                <p>
                     Our software enables efficient management of various hospital operations such as
                     patient data management, appointment scheduling, electronic health records, revenue cycle
                     management, human resource management, and more. With our smart features, you can

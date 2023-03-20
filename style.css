@@ -99,7 +99,9 @@ h6 {
   font-size: 14px;
 }
 
-
+p{
+  font-weight: lighter!important;
+}
 img {
   border: none;
   outline: none;
@@ -131,7 +133,7 @@ p {
   line-height: 26px;
   margin: 0 0 15px;
   text-transform: none;
-  font-weight: 400;
+
 }
 
 hr {
@@ -1351,7 +1353,7 @@ body,
 }
 
 .banner-area .content h1 {
-  font-size: 70px;
+  font-size: 52px;
   font-weight: 600;
   margin-bottom: 25px;
   text-transform: capitalize;
@@ -1374,11 +1376,11 @@ body,
 
 .banner-area .content h4 {
   font-size: 24px;
+  font-weight: 300!important;
 }
 
 .banner-area.heading-exchange .content h2,
-.banner-area.heading-exchange .content h3,
-.banner-area.heading-exchange .content h4 {
+.banner-area.heading-exchange .content h3{
   font-weight: 400;
   margin-bottom: 25px;
   position: relative;
