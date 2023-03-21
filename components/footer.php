@@ -1,6 +1,18 @@
+<style>
+    .fotrm{
+        margin-top:290px;
+    }
+    @media screen and (min-width: 480px) {
+        .fotrm{
+            margin-top:0px ;
+        }
+    }
+
+</style>
+
 <!-- Start Footer
 ============================================= -->
-<footer class="bg-dark text-light">
+<footer class="bg-dark text-light fotrm">
     <div class="container">
         <div class="row">
             <div class="f-items default-padding">
