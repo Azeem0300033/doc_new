@@ -1,4 +1,4 @@
-/*!
+/*/
  * Bootstrap-select v1.6.3 (http://silviomoreto.github.io/bootstrap-select/)
  *
  * Copyright 2013-2014 bootstrap-select
@@ -410,34 +410,36 @@
 .select2-container, .select2-drop, .select2-search, .select2-search input {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+}
+.city_select{
+    background-color: rgba(248, 248, 248, 0.76);
 }
 
 .select2-container .select2-choice {
     display: block;
-    height: 26px;
-    padding: 0 0 0 8px;
+
+    height: 20px!important;
+    margin-top: -20px!important;
+
+    padding:20px  8px!important;
     overflow: hidden;
     position: relative;
 
-    white-space: nowrap;
-
-    color: #444;
     text-decoration: none;
     border-radius: 4px;
-    background-clip: padding-box;
+
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #fff;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
     background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
     background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
     background-image: linear-gradient(to top, #eee 0%, #fff 50%)
 }
+
 
 html[dir="rtl"] .select2-container .select2-choice {
     padding: 0 8px 0 0
@@ -458,18 +460,17 @@ html[dir="rtl"] .select2-container .select2-choice {
 }
 
 .select2-container .select2-choice > .select2-chosen {
-    margin-right: 26px;
-    display: block;
+    margin-right: 146px!important;
+    padding-bottom: 200px!important;
     overflow: hidden;
     color: #605858;
     white-space: nowrap;
-    text-overflow: ellipsis;
     float: none;
     width: auto
 }
 
 html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
-    margin-left: 26px;
+
     margin-right: 0;
     margin-top: 3px
 }

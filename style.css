@@ -1375,7 +1375,7 @@ body,
 }
 
 .banner-area .content h4 {
-  font-size: 24px;
+  font-size: 22px!important;
   font-weight: 300!important;
 }
 
@@ -3010,13 +3010,14 @@ body,
 /* Nice Select CSS */
 .nice-select {
   -webkit-tap-highlight-color: transparent;
-  background-color: #fff;
+  background-color: rgba(248, 248, 248, 0.76)!important;
   border: solid 1px #e8e8e8;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
   display: block;
-
+  padding-top: -10px!important;
+  color: #9b9b9b !important;
   font-family: inherit;
   font-size: 14px;
   font-weight: normal;

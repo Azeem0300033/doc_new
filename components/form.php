@@ -2,9 +2,41 @@
     .form-control {
         border-radius: 25px;
     }
+    .select2-container .select2-selection--single{
+        height:34px !important;
+    }
+    .select2-container--default .select2-selection--single{
+        border: 1px solid #ccc !important;
+        border-radius: 30px !important;
+    }
+    .select2-selection{
+        padding: 24px!important;
+        border-radius: 30px!important;
+        background-color:  rgba(248, 248, 248, 0.76)!important;;
+    }
+    .select2-selection__rendered{
+        margin-top: -10px!important;
+    }
+    .select2-selection__rendered{
+        width: 100%!important;
+        color: #9b9b9b !important;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 56px!important;
+        position: absolute;
+        top: 1px;
+        right: 16px!important;
+        width: 23px!important;
+    }
 </style>
 <!-- Form ection-->
 <main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 
     <link rel="stylesheet" href="assets/b2b/footer.css">
 
@@ -31,36 +63,35 @@
                         <div class="row" style="padding: 8px;" >
                             <div class=" col-md-6">
                                 <label for="inputEmail4">Full Name</label>
-                                <input type="text" class="form-control" id="inputEmail4">
+                                <input type="text" class="form-control" placeholder="Full Name" id="inputEmail4" style="background-color: rgba(248, 248, 248, 0.76)!important;">
                             </div>
                             <div class=" col-md-6">
                                 <label for="inputPassword4">Company Name</label>
-                                <input type="text" class="form-control" id="inputPassword4">
+                                <input type="text" class="form-control" placeholder="Company Name"id="inputPassword4" style="background-color: rgba(248, 248, 248, 0.76)!important;">
                             </div>
                         </div>
                         <div class="row" style="padding: 8px;" >
                             <div class=" col-md-6">
                                 <label for="inputPassword4">Designation</label>
-                                <input type="text" class="form-control" id="inputPassword4">
+                                <input type="text" class="form-control"placeholder="Designation" id="inputPassword4" style="background-color: rgba(248, 248, 248, 0.76)!important;">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                                <input type="email" class="form-control"placeholder="Email" id="inputEmail4" style="background-color: rgba(248, 248, 248, 0.76)!important;">
                             </div>
 
                         </div>
 
-                        <div class="row"style="padding: 8px;"  >
-                            <div class=" col-md-6">
+                        <div class="row"style="padding: 8px; background-color: "  >
+                            <div class=" col-md-6" >
                                 <label for="inputCity">Phone</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <input type="text" class="form-control" placeholder="Phone"  id="inputCity" style="background-color: rgba(248, 248, 248, 0.76)!important;">
                             </div>
 
                             <div class=" col-md-6">
                                 <label for="inputState">City</label>
                                 <select id="form-city"
-                                        class="city_select form-control chosen-select input-city-select select2-dropdown dropdown_city_select"
-                                        style="border: none;">
+                                        class="city_select form-control select2 ">
 
                                     <option>Select City</option>
                                     <option value="Abbottabad">Abbottabad</option>
@@ -515,10 +546,10 @@
                         </div>
                         <div class="row" style="padding: 8px!important;" >
                             <div class="col-md-6">
-                                <label for="inputState">City</label>
+                                <label for="inputState">Setup Type</label>
                                 <select name="setup_type" id="form-setup" class="form-control input-city-select"
-                                        onchange="show_fields(this)" style="border:transparent!important;">
-                                    <option value="">Select Setup Type</option>
+                                        onchange="show_fields(this)" style="border:transparent!important; ">
+                                    <option value="" style="background-color: rgba(248, 248, 248, 0.76)!important;">Select Setup Type</option>
                                     <option value="Hospital">Hospital</option>
                                     <option value="Clinic">Clinic</option>
                                     <option value="Pharmacy">Pharmacy</option>
@@ -587,6 +618,11 @@
                                 Request Demo
                             </button>
                         </div>
+
+
+
+
+
                     </form>
                 </div>
             </div>
@@ -595,7 +631,9 @@
 
 
     </section>
-
+    <script>
+        $('.select2').select2();
+    </script>
 
     <script>
         $("select#form-city").select2({});
